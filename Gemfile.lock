@@ -50,7 +50,11 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
+    datadog_rails (0.2.0)
+      dogstatsd-ruby (~> 1.6)
+      rails (~> 4)
     debug_inspector (0.0.2)
+    dogstatsd-ruby (1.6.0)
     erubis (2.7.0)
     execjs (2.5.2)
     globalid (0.3.5)
@@ -144,6 +148,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  datadog_rails
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.18.1)

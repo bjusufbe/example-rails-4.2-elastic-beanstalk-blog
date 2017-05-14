@@ -48,3 +48,6 @@ group :production do
   # Use PostgreSQL as the database for Active Record
   gem 'pg', '~> 0.18.1'
 end
+
+# Send app metrics to datadog
+gem 'datadog_rails'
